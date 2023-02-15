@@ -8,7 +8,7 @@ class Media:
         if(number<0 or number >10):
             raise ValueError
         self.ArrayNotas.append(number)
-    aaa
+    
     def media(self):
         suma=0
         for a in self.ArrayNotas:
